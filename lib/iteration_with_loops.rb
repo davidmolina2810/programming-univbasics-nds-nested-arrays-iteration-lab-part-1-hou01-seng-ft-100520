@@ -9,7 +9,6 @@ def find_even_values(src)
     while index < src[count].length do
       if src[count][index] % 2 == 0 
         puts src[count][index]
-        index += 1
       end
       index += 1 
     end
