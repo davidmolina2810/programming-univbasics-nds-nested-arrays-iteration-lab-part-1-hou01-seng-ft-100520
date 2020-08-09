@@ -10,7 +10,6 @@ def find_even_values(src)
       if src[count][index] % 2 == 0 
         puts src[count][index]
         index += 1
-        binding.pry 
       end
       index += 1 
     end
